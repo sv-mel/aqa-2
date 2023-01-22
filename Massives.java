@@ -1,4 +1,5 @@
 public class Massives {
+    //Пробуем работать с массивами
     public static void main(String[] args) {
         double [] array1 = new double[6];
         String [] array2 = {"ewew", "kfkfkf"};
@@ -20,5 +21,8 @@ public class Massives {
         for (int i = 0; i <= array3.length - 1; i++){
             System.out.print(array3[i] + " ");
         }
+
+        System.out.println();
+        System.out.print("done");
     }
 }
